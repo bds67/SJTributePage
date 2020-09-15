@@ -18,12 +18,12 @@ main {
 }
 body {
   background-color: #f5eeda;
-  opacity: ;
-  font-size: 40px;
   text-align: center;
+  background-size: 100vh 100vw;
 }
 h1 {
   color: red;
+  font-size: 12vw;
   text-align: center;
     .serif {
       font-family: "Times New Roman", Times, serif;
@@ -31,18 +31,18 @@ h1 {
 }
 h2 {
   color: #09395c;
-  font-size: 35px;
+  font-size: 5vw;
   text-align: center;
 }
 p {
   color: black;
-  font-size: 25px;
+  font-size: 3vw;
   margin-left: 10px;
   margin-right: 10px;
   text-align-last: left;
 }
 ul li {
-  font-size: 18px;
+  font-size: 1.8vw;
   line-height: 25px;
   list-style-position: inside;
   display: flex;
@@ -53,4 +53,18 @@ ul li {
 footer {
   font-size: 15px;
   text-align: left;
+}
+@media only screen and (max-width: 900px) {
+
+   p { 
+      font-size: 18px; 
+   }
+  ul li {
+    font-size: 3vh;
+    margin-left: -10px;
+    margin-right: 10px;
+  }
+  img {
+    min-width: 80%;
+  }
 }
