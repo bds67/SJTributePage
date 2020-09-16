@@ -11,7 +11,6 @@ img {
 figcaption {
   font-size: 20px;
   font-style:italic;
-  
 }
 main {
   display: block;
@@ -22,9 +21,10 @@ body {
   background-size: 100vh 100vw;
 }
 h1 {
-  color: red;
+  color: darkslateblue;
   font-size: 12vw;
   text-align: center;
+  margin-top: 10px;
     .serif {
       font-family: "Times New Roman", Times, serif;
   }
@@ -33,6 +33,10 @@ h2 {
   color: #09395c;
   font-size: 5vw;
   text-align: center;
+  margin-top: -20px;
+  .serif {
+      font-family: "Times New Roman", Times, serif;
+  }
 }
 p {
   color: black;
@@ -40,6 +44,17 @@ p {
   margin-left: 10px;
   margin-right: 10px;
   text-align-last: left;
+  text-align: justify;
+}
+p a {
+  text-decoration: none;
+  color: darkcyan;
+}
+p a:hover{
+  color: red;
+}
+p a:visited{
+  color: darkgoldenrod;
 }
 ul li {
   font-size: 1.8vw;
@@ -53,6 +68,16 @@ ul li {
 footer {
   font-size: 15px;
   text-align: left;
+}
+footer a {
+  text-decoration: none;
+  color: darkcyan;
+}
+footer a:hover {
+  color: red;
+}
+footer a:visited{
+  color: darkgoldenrod;
 }
 @media only screen and (max-width: 900px) {
 
